@@ -8,8 +8,6 @@ import kotlinx.coroutines.flow.Flow
 class WordRepository (private val wordDao: WordDao) {
     val allWords: Flow<List<Word>> = wordDao.getAlphabetizedWords()
 
-
-
     @WorkerThread
     suspend fun insertWord(word: Word){
         wordDao.addWord(word)
