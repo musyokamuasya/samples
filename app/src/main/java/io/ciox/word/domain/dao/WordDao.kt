@@ -13,7 +13,8 @@ interface WordDao {
 //    Add word to db, query words in db, delete words from db
 
     @Query("SELECT * FROM word_database ORDER BY word ASC")
-    fun getAlphabetizedWords() : Flow<List<Word>>
+    fun getAlphabetizedWords(): Flow<List<Word>>
+
 
     @Query("DELETE FROM word_database ")
     suspend fun deleteWord(word: Word)

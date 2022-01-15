@@ -8,7 +8,7 @@ import io.ciox.word.domain.dao.WordDao
 import io.ciox.word.domain.entity.Word
 
 @Database(entities = [Word::class], version = 1, exportSchema = false)
-class WordDatabase {
+
     public abstract class WordRoomDatabase : RoomDatabase() {
         abstract fun wordDao(): WordDao
 
@@ -34,4 +34,3 @@ class WordDatabase {
             }
         }
     }
-}
