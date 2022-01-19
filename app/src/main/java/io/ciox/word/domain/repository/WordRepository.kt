@@ -2,7 +2,7 @@ package io.ciox.word.domain.repository
 
 import androidx.annotation.WorkerThread
 import io.ciox.word.domain.dao.WordDao
-import io.ciox.word.domain.entity.Word
+import io.ciox.word.domain.entities.Word
 import kotlinx.coroutines.flow.Flow
 
 class WordRepository (private val wordDao: WordDao) {

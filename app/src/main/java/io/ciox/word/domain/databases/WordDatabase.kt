@@ -1,11 +1,11 @@
-package io.ciox.word.domain.database
+package io.ciox.word.domain.databases
 
 import android.content.Context
 import androidx.room.Database
 import androidx.room.Room
 import androidx.room.RoomDatabase
 import io.ciox.word.domain.dao.WordDao
-import io.ciox.word.domain.entity.Word
+import io.ciox.word.domain.entities.Word
 
 @Database(entities = [Word::class], version = 1, exportSchema = false)
 

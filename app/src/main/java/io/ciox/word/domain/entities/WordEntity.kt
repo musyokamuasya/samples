@@ -1,4 +1,4 @@
-package io.ciox.word.domain.entity
+package io.ciox.word.domain.entities
 
 import androidx.room.ColumnInfo
 import androidx.room.Entity

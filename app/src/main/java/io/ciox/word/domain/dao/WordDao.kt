@@ -4,7 +4,7 @@ import androidx.room.Dao
 import androidx.room.Insert
 import androidx.room.OnConflictStrategy
 import androidx.room.Query
-import io.ciox.word.domain.entity.Word
+import io.ciox.word.domain.entities.Word
 import kotlinx.coroutines.flow.Flow
 
 

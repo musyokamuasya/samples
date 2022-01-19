@@ -1,7 +1,7 @@
 package io.ciox.word.ui.ui.main
 
 import androidx.lifecycle.*
-import io.ciox.word.domain.entity.Word
+import io.ciox.word.domain.entities.Word
 import io.ciox.word.domain.repository.WordRepository
 import kotlinx.coroutines.launch
 
